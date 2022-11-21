@@ -10,7 +10,8 @@ namespace November_21_11_22
     internal class Singleton_manager
     {
         // variable
-        static Singleton_manager instance;
+        static  Singleton_manager instance;
+        private Bank[] banks_arr  { get; set; }
 
         // Constructor 
         protected Singleton_manager()
